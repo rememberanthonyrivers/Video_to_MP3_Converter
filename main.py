@@ -21,6 +21,6 @@ while True:
     mp4_to_mp3_url_field.send_keys(Keys.ENTER)
     time.sleep(8)
     download_btn = driver.find_element(By.LINK_TEXT, 'Download').click()
-    time.sleep(6)
+    time.sleep(10)
     print('\n\t*** Thank you come again ! ***\n')
     break
